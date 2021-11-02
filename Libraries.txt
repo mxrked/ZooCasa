@@ -1,0 +1,12 @@
+This is a list of the libraries that are used:
+
+React Bootstrap
+Sass
+React Router
+React Icons
+aos
+React Helmet Async
+React Slick
+lazysizes
+Framer Motion
+Scroll Restoration

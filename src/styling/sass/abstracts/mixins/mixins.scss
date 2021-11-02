@@ -1,0 +1,92 @@
+//! Nav
+@mixin menuToggler() {
+  background-color: transparent;
+  display: block;
+  padding: 10px !important;
+  margin-top: 2px !important;
+
+  &:hover {
+    span {
+      &:nth-child(odd) {
+        width: 25px;
+      }
+    }
+
+    #menuTogglerS2 {
+      background-color: $Copperfield;
+    }
+  }
+
+  span {
+    display: block;
+    width: 50px;
+    height: 6px;
+    background-color: white;
+    border-radius: 4px;
+
+    &:nth-child(even) {
+      margin-top: 9px !important;
+      margin-bottom: 9px !important;
+    }
+
+    &:last-child {
+      margin-left: auto !important;
+    }
+  }
+}
+
+@mixin searchFields() {
+  position: relative;
+  .search-field-input-and-btn {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    input {
+      width: 100%;
+      padding: 10px !important;
+      background-color: white;
+      color: rgba(0, 0, 0, 0.424);
+      font-family: $AM;
+      font-size: 18px;
+    }
+
+    button {
+      width: 47px;
+      height: 47px;
+      display: grid;
+      place-items: center;
+      background-color: $Copperfield;
+      color: white;
+      margin-left: 10px !important;
+      font-size: 20px;
+
+      &:hover {
+        background-color: rgb(163, 87, 16);
+      }
+    }
+  }
+
+  ul {
+    position: absolute;
+    background-color: rgb(233, 233, 233);
+    width: 100%;
+    z-index: 400;
+
+    li {
+      a {
+        padding: 10px !important;
+        display: block;
+        font-family: $AM;
+        text-transform: uppercase;
+        color: $Copperfield;
+        font-weight: $AMBold;
+
+        &:hover {
+          background-color: $Copperfield;
+          color: white;
+        }
+      }
+    }
+  }
+}

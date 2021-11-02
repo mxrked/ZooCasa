@@ -1,0 +1,147 @@
+@media all and (max-width: 1995px) {
+}
+
+@media all and (max-width: 991px) {
+  #desktopNavMain {
+    display: none;
+  }
+  #mobileNavMain {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  #mobileNavMain {
+    display: none;
+  }
+}
+
+@media all and (max-width: 768px) {
+  #desktopNavMain {
+    display: none;
+  }
+  #mobileNavMain {
+    display: block;
+  }
+  #underNavMain div ul li {
+    width: 100%;
+  }
+  #underNavMain div ul li span {
+    font-size: 11px;
+    text-align: center;
+    padding: 3px !important;
+  }
+}
+
+/*! Pixel 2 XL */
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #desktopNavMain {
+    display: none;
+  }
+  #mobileNavMain {
+    display: block;
+    padding: 10px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  #underNavMain ul {
+    justify-content: space-evenly;
+  }
+  #underNavMain div ul li span {
+    font-size: 15px;
+  }
+}
+
+/*! Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  #desktopNavMain {
+    display: none;
+  }
+  #mobileNavMain {
+    display: block;
+  }
+  #mobileNavMain .mobile-nav-main-box {
+    max-width: 70%;
+    margin: auto !important;
+  }
+  #mobileNavMain
+    .mobile-nav-main-box
+    .mobile-nav-main-row
+    #mobileNavL
+    .mobile-nav-main-side-cnt
+    #mobileNavLogo
+    h2 {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  #desktopNavMain {
+    display: none;
+  }
+  #mobileNavMain {
+    display: block;
+  }
+  #mobileNavMain .mobile-nav-main-box {
+    max-width: 70%;
+    margin: auto !important;
+  }
+  #mobileNavMain
+    .mobile-nav-main-box
+    .mobile-nav-main-row
+    #mobileNavL
+    .mobile-nav-main-side-cnt
+    #mobileNavLogo
+    h2 {
+    font-size: 60px;
+  }
+}
+
+/*! iPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  #desktopNavMain {
+    display: none;
+  }
+  #mobileNavMain {
+    display: block;
+  }
+  #mobileNavMain .mobile-nav-main-box {
+    max-width: 60%;
+    margin: auto !important;
+  }
+  #mobileNavMain
+    .mobile-nav-main-box
+    .mobile-nav-main-row
+    #mobileNavL
+    .mobile-nav-main-side-cnt
+    #mobileNavLogo
+    h2 {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #desktopNavMain {
+    display: none;
+  }
+  #mobileNavMain {
+    display: block;
+  }
+  #mobileNavMain .mobile-nav-main-box {
+    max-width: 60%;
+    margin: auto !important;
+  }
+  #mobileNavMain
+    .mobile-nav-main-box
+    .mobile-nav-main-row
+    #mobileNavL
+    .mobile-nav-main-side-cnt
+    #mobileNavLogo
+    h2 {
+    font-size: 60px;
+  }
+}
+
+/*! Laptops */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+}

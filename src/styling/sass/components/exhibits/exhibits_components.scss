@@ -1,0 +1,226 @@
+@import "../../abstracts/mixins/mixins.scss";
+@import "../../base/typography/typography.scss";
+@import "../../themes/colors/colors.scss";
+
+//! Top BGS
+#exhibitsTopBGS {
+  position: relative;
+  height: 390px;
+
+  .exhibits-top-bg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #eTopBGOne {
+    z-index: 100;
+    background-position: 0% 40%;
+  }
+  #eTopBGTwo {
+    z-index: 99;
+    background-position: 0% 30%;
+  }
+  #eTopBGThree {
+    z-index: 98;
+    background-position: 0% 40%;
+  }
+}
+
+//! Main Top
+#exhibitsMainTop {
+  padding: 40px !important;
+  padding-top: 100px !important;
+  padding-bottom: 300px !important;
+  height: 350px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  .exhibits-main-top-cnt {
+    max-width: 1200px;
+    margin: auto !important;
+    width: 100%;
+    h2 {
+      font-family: $SZS;
+      font-size: clamp(5rem, 6vw, 6rem);
+      text-transform: uppercase;
+      filter: drop-shadow(0 6px 2px rgba(0, 0, 0, 0.13));
+      padding-bottom: 15px !important;
+      color: $Copperfield;
+    }
+
+    p {
+      font-family: $AM;
+      font-size: 20px;
+      opacity: 0.6;
+      padding-bottom: 30px !important;
+      margin: auto !important;
+      margin-left: 0 !important;
+      max-width: 800px;
+    }
+  }
+}
+
+//! Exhibits Group Btns
+#exhibitsGroupBtns {
+  max-width: 1200px;
+  margin: auto !important;
+  width: 100%;
+  div {
+    max-width: 600px;
+    margin: auto !important;
+    margin-left: 0 !important;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    button {
+      background-color: $Copperfield;
+      color: white;
+      padding: 10px !important;
+      font-family: $AM;
+      font-size: 23px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.active-btn {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+//! Exhibits Group Items
+#exhibitsGroupItems {
+  max-width: 1200px;
+  margin: auto !important;
+  width: 100%;
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+
+  .exhibits-group-items-box {
+    height: 900px;
+    .exhibits-group-item {
+      height: 300px;
+      margin-top: 20px !important;
+      overflow: hidden;
+      white-space: nowrap;
+
+      .exhibits-group-item-inner {
+        width: 100%;
+        max-width: 95%;
+        height: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        background-color: ghostwhite;
+      }
+    }
+  }
+}
+
+//! Exhibits Group Item Modals
+#exhibitsGroupModalDarken {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  top: 0;
+  left: 0;
+  z-index: 600;
+}
+
+.exhibit-group-item-modal {
+  position: fixed;
+  width: 100%;
+  height: 70%;
+  max-width: 1200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 601;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  overflow-y: auto;
+
+  .exhibit-group-item-modal-img {
+    height: 600px;
+    width: 100%;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .exhibit-group-item-modal-cnt {
+    height: 40px;
+
+    button {
+      background-color: $Copperfield;
+      color: white;
+      padding: 10px !important;
+      font-family: $AM;
+      font-size: 20px;
+    }
+  }
+}
+
+//! Exhibits Tickets
+#exhibitsTicketsMain {
+  position: relative;
+  .exhibits-tickets-main-box {
+    position: relative;
+    max-width: 1400px;
+    margin: auto !important;
+    padding-top: 100px !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+
+    .exhibits-tickets-main-text {
+      width: 100%;
+      height: 300px;
+      background-color: rgba(0, 0, 0, 0.53);
+      display: flex;
+      align-items: center;
+      position: absolute;
+      top: 0;
+
+      div {
+        max-width: 85%;
+        margin: auto !important;
+        width: 100%;
+        color: white;
+
+        h2 {
+          font-family: $SZS;
+          font-size: clamp(3rem, 4vw, 4rem);
+          padding-bottom: 20px !important;
+        }
+
+        span {
+          background-color: $Tumbleweed;
+          padding: 10px !important;
+          font-family: $AM;
+          font-size: 23px;
+          text-transform: lowercase;
+          cursor: pointer;
+
+          &:hover {
+            background-color: $Copperfield;
+          }
+        }
+      }
+    }
+  }
+}

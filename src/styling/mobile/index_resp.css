@@ -1,0 +1,1210 @@
+@media all and (max-width: 1995px) {
+  .index-top-slide {
+    height: 800px;
+  }
+  .index-top-slide .index-top-slide-bg {
+    background-size: cover;
+  }
+  #indexTopSlide1 .index-top-slide-bg {
+    background-position: 80% 50% !important;
+  }
+  #indexExhibitsMain .index-exhibits-main-box {
+    max-width: 93%;
+  }
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    #indexExhibitsL
+    .index-exhibits-main-side-cnt
+    .index-exhibits-main-side-cnt-inner {
+    max-width: 95%;
+  }
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    #indexExhibitsL
+    .index-exhibits-main-side-cnt
+    .index-exhibits-main-side-cnt-inner
+    h2 {
+    font-size: clamp(4rem, 4vw, 4rem);
+    line-height: 60px;
+  }
+  #indexEventsMain .index-events-main-top {
+    max-width: 90%;
+  }
+  #indexEventsMain .index-events-main-top p {
+    max-width: 900px;
+  }
+  #indexEventsMain #indexEventsHolder {
+    max-width: 90%;
+    margin: auto !important;
+  }
+  #indexEventsMain .index-events-main-top h2 {
+    font-size: clamp(4rem, 4vw, 4rem);
+    line-height: 60px;
+  }
+  #indexEventsMain #indexEventsHolder .index-event-item .index-event-inner {
+    max-width: 100%;
+    margin: auto !important;
+  }
+  #indexEventsMain
+    #indexEventsHolder
+    .index-event-item
+    .index-event-inner
+    .index-event-item-text
+    p {
+    padding-left: 40px !important;
+  }
+  #indexAboutMain {
+    padding-top: 70px !important;
+    padding-bottom: 0px !important;
+  }
+  #indexAboutMain
+    .index-about-main-box
+    .index-about-main-row
+    .index-about-main-side
+    .index-about-main-side-cnt
+    .index-about-main-side-cnt-text
+    h2 {
+    font-size: clamp(4rem, 4vw, 4rem);
+    line-height: 60px;
+  }
+  #indexTeamMain {
+    padding-top: 150px !important;
+  }
+  #indexTeamMain .index-team-top div h2 {
+    font-size: clamp(4.2rem, 4.2vw, 4.2rem);
+    line-height: 60px;
+  }
+}
+
+@media all and (max-width: 991px) {
+  #indexTop
+    #indexTopSlide1
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text,
+  #indexTop
+    #indexTopSlide2
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text,
+  #indexTop
+    #indexTopSlide3
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text {
+    padding-top: 100px !important;
+  }
+  #indexTop .index-top-slide .index-top-slide-bg {
+    background-size: 200%;
+  }
+  #indexExhibitsMain .index-exhibits-main-box {
+    padding-bottom: 0 !important;
+  }
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    .index-exhibits-main-side {
+    max-width: 100%;
+    width: 100%;
+  }
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    #indexExhibitsL,
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    #indexExhibitsL
+    .index-exhibits-main-side-cnt {
+    height: 400px;
+  }
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    #indexExhibitsL
+    .index-exhibits-main-side-cnt
+    .index-exhibits-main-side-cnt-inner {
+    text-align: center;
+  }
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    #indexExhibitsL
+    .index-exhibits-main-side-cnt
+    .index-exhibits-main-side-cnt-inner
+    h2 {
+    font-size: 70px;
+    padding-bottom: 40px !important;
+  }
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    #indexExhibitsL
+    .index-exhibits-main-side-cnt
+    .index-exhibits-main-side-cnt-inner
+    h2
+    br,
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    #indexExhibitsL
+    .index-exhibits-main-side-cnt
+    .index-exhibits-main-side-cnt-inner
+    .index-exhibits-main-side-cnt-dots {
+    display: none;
+  }
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    #indexExhibitsL
+    .index-exhibits-main-side-cnt
+    .index-exhibits-main-side-cnt-inner
+    .index-exhibits-main-side-cnt-link-holder {
+    justify-content: center;
+  }
+  #indexEventsMain {
+    padding-top: 40px !important;
+  }
+  #indexEventsMain .index-events-main-top {
+    max-width: 80%;
+  }
+  #indexEventsMain #indexEventsHolder .index-event-item .index-event-inner {
+    justify-content: space-evenly;
+    max-width: 85%;
+  }
+  #indexEventsMain
+    #indexEventsHolder
+    .index-event-item
+    .index-event-inner
+    .index-event-item-text
+    p {
+    max-width: 85%;
+  }
+  #indexAboutMain {
+    padding-top: 50px !important;
+    padding-bottom: 40px !important;
+  }
+  #indexAboutMain
+    .index-about-main-box
+    .index-about-main-row
+    .index-about-main-side {
+    max-width: 100%;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+  }
+  #indexAboutMain .index-about-main-box .index-about-main-row #indexAboutL {
+    height: 300px;
+  }
+  #indexAboutMain
+    .index-about-main-box
+    .index-about-main-row
+    .index-about-main-side
+    .index-about-main-side-cnt
+    .index-about-main-side-bg {
+    height: 200px;
+    max-width: 85%;
+    background-position: 0% 55%;
+  }
+  #indexAboutMain
+    .index-about-main-box
+    .index-about-main-row
+    .index-about-main-side
+    .index-about-main-side-cnt
+    .index-about-main-side-cnt-text
+    p {
+    margin: auto !important;
+  }
+  #indexAboutMain
+    .index-about-main-box
+    .index-about-main-row
+    .index-about-main-side
+    .index-about-main-side-cnt
+    .index-about-main-side-cnt-text
+    .index-about-main-side-cnt-text-link-holder {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+  #indexAboutMain
+    .index-about-main-box
+    .index-about-main-row
+    .index-about-main-side
+    .index-about-main-side-cnt
+    .index-about-main-side-cnt-text
+    .index-about-main-side-cnt-text-link-holder
+    a {
+    margin: auto !important;
+  }
+  #indexTeamMain {
+    padding-top: 0 !important;
+  }
+  #indexTeamMain .index-team-top div h2 {
+    font-size: 70px;
+    padding-bottom: 40px !important;
+  }
+  #indexTeamMain
+    .index-team-main-box
+    .index-team-main-row
+    .index-teammate-holder {
+    max-width: 50%;
+    width: 100%;
+    padding: 10px !important;
+  }
+  #indexTeamMain
+    .index-team-main-box
+    .index-team-main-row
+    .index-teammate-holder:nth-child(even) {
+    max-width: 50%;
+  }
+  #indexTeamMain
+    .index-team-main-box
+    .index-team-main-row
+    .index-teammate-holder:last-child {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media all and (max-width: 768px) {
+  #indexTop .index-top-slide {
+    height: 420px;
+  }
+  #indexTop .index-top-slide .index-top-slide-bg {
+    background-size: cover;
+  }
+  #indexTop
+    #indexTopSlide3
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text,
+  #indexTop
+    #indexTopSlide2
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text,
+  #indexTop
+    #indexTopSlide1
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text {
+    padding: 0 !important;
+    padding-bottom: 30px !important;
+    text-align: center;
+  }
+  #indexTop
+    #indexTopSlide3
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text
+    h2,
+  #indexTop
+    #indexTopSlide2
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text
+    h2,
+  #indexTop
+    #indexTopSlide1
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text
+    h2 {
+    font-size: clamp(20px, 50px, 50px);
+    line-height: normal;
+  }
+  #indexTop
+    #indexTopSlide3
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text
+    p,
+  #indexTop
+    #indexTopSlide2
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text
+    p,
+  #indexTop
+    #indexTopSlide1
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text
+    p {
+    font-size: 20px;
+  }
+  #indexTop
+    #indexTopSlide3
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text
+    div,
+  #indexTop
+    #indexTopSlide2
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text
+    div,
+  #indexTop
+    #indexTopSlide1
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text
+    div {
+    margin: auto !important;
+    justify-content: space-evenly;
+    max-width: 60%;
+  }
+  #indexTop
+    .index-top-slide
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text
+    div
+    a {
+    font-size: 16px;
+    padding: 8px !important;
+  }
+  #indexExhibitsMain {
+    padding: 10px !important;
+  }
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    #indexExhibitsL,
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    #indexExhibitsL
+    .index-exhibits-main-side-cnt {
+    height: 100%;
+  }
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    #indexExhibitsL
+    .index-exhibits-main-side-cnt {
+    padding: 0px !important;
+  }
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    #indexExhibitsL
+    .index-exhibits-main-side-cnt
+    .index-exhibits-main-side-cnt-inner {
+    margin-left: auto !important;
+    max-width: 90% !important;
+    width: 100%;
+  }
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    #indexExhibitsL
+    .index-exhibits-main-side-cnt
+    .index-exhibits-main-side-cnt-inner
+    h2 {
+    font-size: clamp(20px, 40px, 40px);
+    padding-bottom: 40px !important;
+    line-height: 50px;
+  }
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    #indexExhibitsL
+    .index-exhibits-main-side-cnt
+    .index-exhibits-main-side-cnt-inner
+    h2
+    br {
+    display: block;
+  }
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    #indexExhibitsL
+    .index-exhibits-main-side-cnt
+    .index-exhibits-main-side-cnt-inner
+    p,
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    #indexExhibitsL
+    .index-exhibits-main-side-cnt
+    .index-exhibits-main-side-cnt-inner
+    .index-exhibits-main-side-cnt-link-holder
+    a {
+    font-size: 18px;
+  }
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    #indexExhibitsR {
+    height: 100%;
+    padding-top: 50px !important;
+    padding-bottom: 30px !important;
+  }
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    #indexExhibitsR
+    .index-exhibits-main-side-cnt
+    .index-exhibits-main-side-group:nth-child(even) {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    #indexExhibitsL
+    .index-exhibits-main-side-cnt
+    .index-exhibits-main-side-cnt-inner
+    .index-exhibits-main-side-cnt-link-holder
+    a {
+    max-width: 90px;
+  }
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    #indexExhibitsR
+    .index-exhibits-main-side-cnt
+    .index-exhibits-main-side-group
+    .index-exhibits-main-side-group-cnt {
+    align-items: flex-end;
+  }
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    #indexExhibitsR
+    .index-exhibits-main-side-cnt
+    .index-exhibits-main-side-group
+    .index-exhibits-main-side-group-cnt
+    div {
+    padding-bottom: 40px !important;
+  }
+  #indexEventsMain {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  #indexEventsMain .index-events-main-top {
+    text-align: center;
+    max-width: 100%;
+    padding-top: 30px !important;
+  }
+  #indexEventsMain .index-events-main-top h2 {
+    font-size: clamp(30px, 45px, 45px);
+    padding-bottom: 25px !important;
+    line-height: 50px;
+  }
+  #indexEventsMain .index-events-main-top p {
+    font-size: 18px;
+  }
+  #indexEventsMain #indexEventsHolder .index-event-item .index-event-inner {
+    display: grid;
+    place-items: center;
+    margin: auto !important;
+  }
+  #indexEventsMain #indexEventsHolder .index-event-item {
+    margin-top: 0 !important;
+    margin-bottom: 60px !important;
+  }
+  #indexEventsMain #indexEventsHolder #iEThree {
+    margin-bottom: 0 !important;
+  }
+  #indexEventsMain #indexEventsHolder #iEOne .index-event-item-bg,
+  #indexEventsMain #indexEventsHolder #iETwo .index-event-item-bg,
+  #indexEventsMain #indexEventsHolder #iEThree .index-event-item-bg {
+    max-width: 100%;
+    height: 220px;
+  }
+  #indexEventsMain #indexEventsHolder .index-event-item .index-event-inner {
+    max-width: 100%;
+  }
+  #indexEventsMain
+    #indexEventsHolder
+    .index-event-item
+    .index-event-inner
+    .index-event-item-text {
+    max-width: 90%;
+    margin: auto !important;
+    text-align: center;
+    padding-top: 40px !important;
+  }
+  #indexEventsMain
+    #indexEventsHolder
+    .index-event-item
+    .index-event-inner
+    .index-event-item-text
+    h2 {
+    font-size: clamp(20px, 38px, 38px);
+  }
+  #indexEventsMain
+    #indexEventsHolder
+    .index-event-item
+    .index-event-inner
+    .index-event-item-text
+    p {
+    padding-left: 0 !important;
+    font-size: 18px;
+    margin: auto !important;
+    max-width: 100%;
+  }
+  #indexEventsMain
+    #indexEventsHolder
+    .index-event-item
+    .index-event-inner
+    .index-event-item-text
+    a {
+    margin: auto !important;
+    max-width: 110px;
+    font-size: 18px;
+  }
+  #indexAboutMain {
+    padding-bottom: 10px !important;
+  }
+  #indexAboutMain .index-about-main-box .index-about-main-row #indexAboutL {
+    height: 200px;
+  }
+  #indexAboutMain
+    .index-about-main-box
+    .index-about-main-row
+    .index-about-main-side
+    .index-about-main-side-cnt
+    .index-about-main-side-cnt-text {
+    padding: 10px !important;
+    padding-top: 20px !important;
+  }
+  #indexAboutMain
+    .index-about-main-box
+    .index-about-main-row
+    .index-about-main-side
+    .index-about-main-side-cnt
+    .index-about-main-side-cnt-text
+    h2 {
+    font-size: clamp(20px, 48px, 48px);
+  }
+  #indexAboutMain
+    .index-about-main-box
+    .index-about-main-row
+    .index-about-main-side
+    .index-about-main-side-cnt
+    .index-about-main-side-cnt-text
+    p {
+    font-size: 18px;
+    margin: auto !important;
+    max-width: 90%;
+  }
+  #indexAboutMain
+    .index-about-main-box
+    .index-about-main-row
+    .index-about-main-side
+    .index-about-main-side-cnt
+    .index-about-main-side-cnt-text
+    a {
+    margin: auto !important;
+    max-width: 110px;
+    font-size: 18px;
+  }
+  #indexTeamMain {
+    padding-top: 30px !important;
+    padding-bottom: 40px !important;
+  }
+  #indexTeamMain .index-team-top {
+    padding-bottom: 20px !important;
+  }
+  #indexTeamMain .index-team-top div {
+    max-width: 80%;
+    margin: auto !important;
+  }
+  #indexTeamMain .index-team-top div h2 {
+    font-size: clamp(20px, 48px, 48px);
+  }
+  #indexTeamMain .index-team-main-box {
+    padding-top: 70px !important;
+  }
+  #indexTeamMain
+    .index-team-main-box
+    .index-team-main-row
+    .index-teammate-holder {
+    max-width: 100% !important;
+    width: 100%;
+    padding: 0 !important;
+  }
+  #indexTeamMain
+    .index-team-main-box
+    .index-team-main-row
+    .index-teammate-holder:nth-child(even) {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+  }
+  #indexTeamMain
+    .index-team-main-box
+    .index-team-main-row
+    .index-team-main-mate
+    .index-team-main-mate-cnt
+    .index-team-main-mate-bg,
+  #indexTeamMain
+    .index-team-main-box
+    .index-team-main-row
+    .index-team-main-mate
+    .index-team-main-mate-cnt
+    .index-team-main-mate-text {
+    max-width: 210px;
+    height: 210px;
+  }
+  #exhibitsGroupItems
+    .exhibits-group-items-box
+    .exhibits-group-item
+    .exhibits-group-item-inner {
+    max-width: 100%;
+  }
+  #indexTeamMain .index-team-top div h2 {
+    padding-bottom: 10px !important;
+  }
+  #indexTeamMain .index-team-top div p {
+    font-size: 18px;
+    margin: auto !important;
+    max-width: 100%;
+  }
+  #indexTeamMain
+    .index-team-main-box
+    .index-team-main-row
+    .index-team-main-mate
+    .index-team-main-mate-cnt
+    .index-team-main-mate-text
+    div
+    h2 {
+    font-size: 30px;
+  }
+  #indexTeamMain
+    .index-team-main-box
+    .index-team-main-row
+    .index-team-main-mate
+    .index-team-main-mate-cnt
+    .index-team-main-mate-text
+    div
+    a {
+    font-size: 15px;
+    max-width: 90px;
+  }
+}
+
+/*! Pixel 2 XL */
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #indexTop .index-top-slide {
+    height: 320px;
+  }
+  #indexTop .index-top-slide .index-top-slide-cnt {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  #indexTop
+    .index-top-slide
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text
+    h2
+    br {
+    display: none;
+  }
+  #indexTop
+    #indexTopSlide3
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text
+    div,
+  #indexTop
+    #indexTopSlide2
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text
+    div,
+  #indexTop
+    #indexTopSlide1
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text
+    div {
+    margin: auto !important;
+    max-width: 140px;
+  }
+  #indexTop
+    .index-top-slide
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text
+    div
+    a {
+    font-size: 18px;
+  }
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    #indexExhibitsL
+    .index-exhibits-main-side-cnt
+    .index-exhibits-main-side-cnt-inner
+    h2
+    br {
+    display: none;
+  }
+  #indexEventsMain #indexEventsHolder {
+    max-width: 100%;
+  }
+  #indexEventsMain .index-events-main-top {
+    max-width: 500px;
+    padding-top: 0 !important;
+  }
+  #indexEventsMain #indexEventsHolder .index-event-item .index-event-inner {
+    display: flex !important;
+    max-width: 100%;
+  }
+  #indexEventsMain #indexEventsHolder #iEOne .index-event-item-bg,
+  #indexEventsMain #indexEventsHolder #iETwo .index-event-item-bg,
+  #indexEventsMain #indexEventsHolder #iEThree .index-event-item-bg {
+    max-width: 40%;
+    height: 240px;
+  }
+  #indexEventsMain
+    #indexEventsHolder
+    .index-event-item
+    .index-event-inner
+    .index-event-item-text {
+    max-width: 60%;
+    text-align: center;
+    padding-top: 0 !important;
+  }
+  #indexEventsMain
+    #indexEventsHolder
+    .index-event-item
+    .index-event-inner
+    .index-event-item-text
+    p {
+    font-size: 16px;
+    padding-bottom: 25px !important;
+    max-width: 80%;
+  }
+  #indexEventsMain
+    #indexEventsHolder
+    .index-event-item
+    .index-event-inner
+    .index-event-item-text
+    a {
+    font-size: 16px;
+    padding: 10px !important;
+    max-width: 95px;
+  }
+  #indexAboutMain
+    .index-about-main-box
+    .index-about-main-row
+    .index-about-main-side {
+    height: 450px;
+  }
+  #indexAboutMain
+    .index-about-main-box
+    .index-about-main-row
+    .index-about-main-side
+    .index-about-main-side-cnt
+    .index-about-main-side-cnt-text {
+    padding-top: 40px !important;
+  }
+  #indexTeamMain .index-team-main-box {
+    padding-top: 0px !important;
+  }
+  #indexTeamMain .index-team-main-box .index-team-main-row {
+    display: flex;
+    justify-content: center;
+  }
+  #indexTeamMain
+    .index-team-main-box
+    .index-team-main-row
+    .index-teammate-holder {
+    max-width: 50% !important;
+    margin: auto !important;
+  }
+  #indexTeamMain
+    .index-team-main-box
+    .index-team-main-row
+    .index-team-main-mate
+    .index-team-main-mate-cnt
+    .index-team-main-mate-bg,
+  #indexTeamMain
+    .index-team-main-box
+    .index-team-main-row
+    .index-team-main-mate
+    .index-team-main-mate-cnt
+    .index-team-main-mate-text {
+    max-width: 210px;
+    height: 210px;
+  }
+}
+
+/*! Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  #indexTop .index-top-slide {
+    height: 560px;
+  }
+  #indexTop
+    .index-top-slide
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text
+    h2 {
+    font-size: 80px !important;
+    line-height: normal;
+  }
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    #indexExhibitsL
+    .index-exhibits-main-side-cnt
+    .index-exhibits-main-side-cnt-inner
+    h2
+    br {
+    display: none;
+  }
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    #indexExhibitsL
+    .index-exhibits-main-side-cnt
+    .index-exhibits-main-side-cnt-inner
+    h2 {
+    font-size: clamp(30px, 50px, 50px);
+    padding-bottom: 40px !important;
+    line-height: 50px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  #indexTop .slick-dots {
+    bottom: 2px;
+  }
+  #indexTop .index-top-slide {
+    height: 265px;
+  }
+  #indexTop
+    #indexTopSlide1
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text,
+  #indexTop
+    #indexTopSlide2
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text,
+  #indexTop
+    #indexTopSlide3
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text {
+    padding-top: 0px !important;
+  }
+  #indexTop
+    .index-top-slide
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text
+    h2
+    br {
+    display: none;
+  }
+  #indexTop
+    .index-top-slide
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text
+    h2 {
+    font-size: 60px;
+    line-height: normal;
+  }
+  #indexTop
+    .index-top-slide
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text
+    p {
+    font-size: 21px;
+  }
+  #indexTop
+    #indexTopSlide1
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text
+    div,
+  #indexTop
+    #indexTopSlide3
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text
+    div {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  #indexTop
+    #indexTopSlide1
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text,
+  #indexTop
+    #indexTopSlide2
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text,
+  #indexTop
+    #indexTopSlide3
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text {
+    text-align: right;
+    padding-right: 50px !important;
+  }
+  #indexTop
+    #indexTopSlide2
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text
+    div {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  #indexTop #indexTopSlide2 .index-top-slide-bg {
+    background-position: 65% 40%;
+    background-size: 200%;
+  }
+  #indexTop #indexTopSlide3 .index-top-slide-bg {
+    background-position: 80% 50%;
+  }
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    #indexExhibitsL
+    .index-exhibits-main-side-cnt
+    .index-exhibits-main-side-cnt-inner
+    h2 {
+    font-size: clamp(30px, 50px, 50px);
+    padding-bottom: 40px !important;
+    line-height: 50px;
+  }
+  #indexEventsMain {
+    padding-top: 0px !important;
+    padding-bottom: 20px !important;
+  }
+  #indexEventsMain .index-events-main-top {
+    text-align: center;
+    max-width: 80%;
+  }
+  #indexEventsMain #indexEventsHolder .index-event-item {
+    margin-top: 10px !important;
+  }
+  #indexEventsMain #indexEventsHolder .index-event-item .index-event-inner {
+    max-width: 95%;
+  }
+  #indexEventsMain
+    #indexEventsHolder
+    .index-event-item
+    .index-event-inner
+    .index-event-item-text
+    p,
+  #indexEventsMain
+    #indexEventsHolder
+    .index-event-item
+    .index-event-inner
+    .index-event-item-text
+    a {
+    font-size: 17px;
+    margin: auto !important;
+  }
+  #indexEventsMain
+    #indexEventsHolder
+    .index-event-item
+    .index-event-inner
+    .index-event-item-text
+    p {
+    max-width: 80%;
+  }
+  #indexEventsMain
+    #indexEventsHolder
+    .index-event-item
+    .index-event-inner
+    .index-event-item-text
+    a {
+    max-width: 100px;
+  }
+}
+
+/*! iPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  #indexTop .index-top-slide {
+    height: 620px;
+  }
+  #indexTop
+    #indexTopSlide1
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text,
+  #indexTop
+    #indexTopSlide2
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text,
+  #indexTop
+    #indexTopSlide3
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text {
+    padding-bottom: 100px !important;
+  }
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    #indexExhibitsL
+    .index-exhibits-main-side-cnt
+    .index-exhibits-main-side-cnt-inner
+    h2 {
+    font-size: clamp(40px, 60px, 60px);
+    padding-bottom: 40px !important;
+    line-height: 50px;
+  }
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    #indexExhibitsR
+    .index-exhibits-main-side-cnt
+    .index-exhibits-main-side-group:nth-child(even) {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+  }
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    .index-exhibits-main-side {
+    height: 800px;
+  }
+  #indexEventsMain {
+    padding-top: 150px !important;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #indexTop .index-top-slide {
+    height: 420px;
+  }
+  #indexTop
+    #indexTopSlide1
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text,
+  #indexTop
+    #indexTopSlide2
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text,
+  #indexTop
+    #indexTopSlide3
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text {
+    padding-top: 0 !important;
+  }
+  #indexTop
+    .index-top-slide
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text
+    h2 {
+    font-size: 80px;
+    line-height: 70px;
+  }
+  #indexTop
+    .index-top-slide
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text
+    div {
+    max-width: 160px;
+  }
+  #indexTop
+    .index-top-slide
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text
+    div
+    a {
+    font-size: 21px;
+  }
+  #indexExhibitsMain
+    .index-exhibits-main-box
+    .index-exhibits-main-row
+    .index-exhibits-main-side {
+    height: 880px;
+  }
+  #indexEventsMain {
+    padding-top: 180px !important;
+  }
+  #indexEventsMain
+    #indexEventsHolder
+    .index-event-item
+    .index-event-inner
+    .index-event-item-text {
+    text-align: center;
+  }
+  #indexEventsMain
+    #indexEventsHolder
+    .index-event-item
+    .index-event-inner
+    .index-event-item-text
+    p,
+  #indexEventsMain
+    #indexEventsHolder
+    .index-event-item
+    .index-event-inner
+    .index-event-item-text
+    a {
+    font-size: 19px;
+    margin: auto !important;
+  }
+  #indexEventsMain
+    #indexEventsHolder
+    .index-event-item
+    .index-event-inner
+    .index-event-item-text
+    a {
+    max-width: 110px;
+  }
+}
+
+/*! Laptops */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  #indexTop .index-top-slide {
+    height: 620px;
+  }
+  #indexTop
+    #indexTopSlide1
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text,
+  #indexTop
+    #indexTopSlide2
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text,
+  #indexTop
+    #indexTopSlide3
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text {
+    max-width: 1500px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  #indexTop
+    .index-top-slide
+    .index-top-slide-cnt
+    .index-top-slide-cnt-inner
+    .index-top-slide-text
+    h2 {
+    font-size: 120px;
+    line-height: 120px;
+  }
+}

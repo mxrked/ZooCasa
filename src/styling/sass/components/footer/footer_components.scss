@@ -1,0 +1,193 @@
+@import "../../abstracts/mixins/mixins.scss";
+@import "../../base/typography/typography.scss";
+@import "../../themes/colors/colors.scss";
+
+#footerMain {
+  background-color: #2a2a2a;
+  margin-top: 50px !important;
+
+  .footer-main-box {
+    .footer-main-row {
+      .footer-main-side {
+        height: 450px;
+        display: grid;
+        place-items: center;
+        padding: 30px !important;
+
+        .footer-main-side-cnt {
+          width: 100%;
+
+          .footer-logo-and-cr {
+            max-width: 500px;
+            margin: auto !important;
+            a {
+              color: white;
+              display: block;
+              max-width: 233px;
+
+              &:hover {
+                h1 {
+                  opacity: 1;
+                }
+              }
+
+              h1 {
+                font-family: $SZS;
+                font-size: clamp(5rem, 6vw, 6rem);
+                opacity: 0.6;
+              }
+            }
+
+            p {
+              font-family: $AM;
+              font-size: 20px;
+              color: white;
+              opacity: 0.5;
+              padding-bottom: 30px !important;
+            }
+
+            span {
+              font-size: 20px;
+              color: white;
+              font-family: $AM;
+              opacity: 0.5;
+              display: flex;
+              align-items: center;
+
+              .fa-icon {
+                margin-right: 15px !important;
+              }
+            }
+          }
+
+          .footer-links {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding-bottom: 30px !important;
+            text-align: center;
+            border-bottom: 16px dotted rgba(240, 152, 70, 0.37);
+            max-width: 400px;
+
+            ul {
+              font-family: $AM;
+
+              li {
+                margin: 10px !important;
+                a {
+                  color: white;
+                  font-size: 20px;
+                  opacity: 0.5;
+
+                  &:hover {
+                    opacity: 1;
+                  }
+                }
+              }
+            }
+          }
+
+          .footer-newsletter {
+            display: grid;
+            width: 100%;
+            max-width: 400px;
+            padding-top: 30px !important;
+
+            p {
+              font-family: $AM;
+              color: white;
+              padding-bottom: 20px !important;
+              font-size: 17px;
+              opacity: 0.7;
+            }
+
+            div {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+
+              button {
+                color: white;
+                background-color: $Copperfield;
+                font-size: 30px;
+                width: 45px;
+                height: 45px;
+                display: grid;
+                place-items: center;
+                border-radius: 10%;
+
+                &:hover {
+                  background-color: $Tumbleweed;
+                }
+              }
+
+              input {
+                width: 90%;
+                padding: 10px !important;
+                background-color: #302f2f;
+                border-top-right-radius: 50px;
+                border-bottom-right-radius: 50px;
+                margin-left: 20px !important;
+                color: white;
+              }
+            }
+          }
+
+          .footer-socials {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            max-width: 400px;
+            width: 100%;
+            padding-bottom: 30px !important;
+
+            a {
+              color: white;
+              font-size: 30px;
+              opacity: 0.5;
+              margin-right: 50px !important;
+
+              &:hover {
+                opacity: 1;
+              }
+            }
+          }
+
+          .footer-contact {
+            display: grid;
+            width: 100%;
+            max-width: 400px;
+
+            a {
+              margin-top: 10px !important;
+              font-family: $AM;
+              color: white;
+              font-size: 21px;
+              opacity: 0.5;
+
+              &:hover {
+                opacity: 1;
+              }
+            }
+          }
+        }
+      }
+
+      #footerMiddle {
+        .footer-main-side-cnt {
+          display: grid;
+          place-items: center;
+        }
+      }
+
+      #footerRight {
+        background-color: #302f2f;
+        .footer-main-side-cnt {
+          display: grid;
+          place-items: center;
+        }
+      }
+    }
+  }
+}

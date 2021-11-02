@@ -1,0 +1,197 @@
+@import "../../abstracts/mixins/mixins.scss";
+@import "../../base/typography/typography.scss";
+@import "../../themes/colors/colors.scss";
+
+//! Top
+#contactTop {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  padding-top: 100px !important;
+
+  .contact-top-cnt {
+    max-width: 1500px;
+    margin: auto !important;
+
+    h2 {
+      font-family: $SZS;
+      font-size: clamp(5rem, 6vw, 6rem);
+      text-transform: uppercase;
+      filter: drop-shadow(0 6px 2px rgba(0, 0, 0, 0.13));
+      padding-bottom: 25px !important;
+      color: $Copperfield;
+    }
+
+    p {
+      font-family: $AM;
+      font-size: 20px;
+      opacity: 0.6;
+      padding-bottom: 30px !important;
+      max-width: 900px;
+      margin: auto !important;
+    }
+  }
+}
+
+//! Form
+
+#contactFormMain {
+  padding-top: 20px !important;
+  padding-bottom: 80px !important;
+
+  .contact-form-cnt {
+    max-width: 900px;
+    margin: auto !important;
+
+    #contactForm {
+      display: block;
+
+      .contact-form-group {
+        display: block;
+
+        &:last-child {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+
+          .contact-form-set {
+            max-width: 70%;
+            margin: auto !important;
+            margin-left: 0 !important;
+          }
+
+          .contact-form-btns {
+            display: grid;
+            align-items: flex-end;
+            width: 100%;
+            height: 150px;
+            position: relative;
+            top: 20px;
+            max-width: 18.5%;
+
+            button {
+              padding: 5px !important;
+              display: block;
+              background-color: $Copperfield;
+              color: white;
+              max-width: 120px;
+              font-family: $SZS;
+              display: flex;
+              align-items: center;
+              justify-content: space-evenly;
+              p {
+                font-size: 28px;
+              }
+
+              .fa-icon {
+                font-size: 20px;
+                opacity: 0.3;
+                color: black;
+              }
+            }
+          }
+        }
+
+        .contact-form-set {
+          display: grid;
+          width: 100%;
+
+          span {
+            font-family: $SZS;
+            font-size: clamp(2rem, 2.5vw, 2.5rem);
+            text-transform: uppercase;
+            filter: drop-shadow(0 6px 2px rgba(0, 0, 0, 0.13));
+            padding-top: 25px !important;
+            opacity: 0.6;
+          }
+
+          input {
+            width: 100%;
+            max-width: 95%;
+            margin-right: auto !important;
+            height: 50px;
+            background-color: #ececec;
+            padding: 10px !important;
+            font-family: $AM;
+            font-size: 20px;
+            transition: 0.3s ease-in-out;
+            border-radius: 10px;
+
+            &:valid {
+              filter: none;
+            }
+          }
+
+          textarea {
+            width: 100%;
+            max-width: 95%;
+            height: 200px;
+            resize: none;
+            background-color: #ececec;
+            border: none !important;
+            padding: 10px !important;
+            font-family: $AM;
+            font-size: 17px;
+            transition: 0.3s ease-in-out;
+            border-radius: 10px;
+
+            &:focus {
+              outline: none;
+            }
+
+            &:valid {
+              filter: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//! Under Form
+#contactUnderForm {
+  padding-top: 50px !important;
+  padding-bottom: 100px !important;
+
+  .contact-under-form-cnt {
+    max-width: 900px;
+    width: 100%;
+    margin: auto !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .contact-under-form-contact {
+      display: grid;
+      align-items: center;
+      font-family: $AM;
+      border-left: 4px solid $Copperfield;
+      padding-left: 10px !important;
+      padding-top: 10px !important;
+      padding-bottom: 10px !important;
+
+      span {
+        font-size: 25px;
+        padding-left: 10px !important;
+        cursor: pointer;
+
+        &:last-child {
+          color: $Copperfield;
+        }
+      }
+    }
+
+    .contact-under-form-socials {
+      .fa-icon {
+        font-size: 32px;
+        margin: 10px !important;
+        cursor: pointer;
+        &:hover {
+          color: $Copperfield;
+        }
+      }
+    }
+  }
+}

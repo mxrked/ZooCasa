@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&display=swap");
+@font-face {
+  font-family: "Sun Zoom Spark";
+  src: url("../../../fonts/szs.ttf");
+}
+
+#contactTop {
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 100px !important;
+}
+
+#contactTop .contact-top-cnt {
+  max-width: 1500px;
+  margin: auto !important;
+}
+
+#contactTop .contact-top-cnt h2 {
+  font-family: "Sun Zoom Spark";
+  font-size: clamp(5rem, 6vw, 6rem);
+  text-transform: uppercase;
+  -webkit-filter: drop-shadow(0 6px 2px rgba(0, 0, 0, 0.13));
+          filter: drop-shadow(0 6px 2px rgba(0, 0, 0, 0.13));
+  padding-bottom: 25px !important;
+  color: #dc986a;
+}
+
+#contactTop .contact-top-cnt p {
+  font-family: "Amaranth";
+  font-size: 20px;
+  opacity: 0.6;
+  padding-bottom: 30px !important;
+  max-width: 900px;
+  margin: auto !important;
+}
+
+#contactFormMain {
+  padding-top: 20px !important;
+  padding-bottom: 80px !important;
+}
+
+#contactFormMain .contact-form-cnt {
+  max-width: 900px;
+  margin: auto !important;
+}
+
+#contactFormMain .contact-form-cnt #contactForm {
+  display: block;
+}
+
+#contactFormMain .contact-form-cnt #contactForm .contact-form-group {
+  display: block;
+}
+
+#contactFormMain .contact-form-cnt #contactForm .contact-form-group:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contactFormMain .contact-form-cnt #contactForm .contact-form-group:last-child .contact-form-set {
+  max-width: 70%;
+  margin: auto !important;
+  margin-left: 0 !important;
+}
+
+#contactFormMain .contact-form-cnt #contactForm .contact-form-group:last-child .contact-form-btns {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 100%;
+  height: 150px;
+  position: relative;
+  top: 20px;
+  max-width: 18.5%;
+}
+
+#contactFormMain .contact-form-cnt #contactForm .contact-form-group:last-child .contact-form-btns button {
+  padding: 5px !important;
+  display: block;
+  background-color: #dc986a;
+  color: white;
+  max-width: 120px;
+  font-family: "Sun Zoom Spark";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#contactFormMain .contact-form-cnt #contactForm .contact-form-group:last-child .contact-form-btns button p {
+  font-size: 28px;
+}
+
+#contactFormMain .contact-form-cnt #contactForm .contact-form-group:last-child .contact-form-btns button .fa-icon {
+  font-size: 20px;
+  opacity: 0.3;
+  color: black;
+}
+
+#contactFormMain .contact-form-cnt #contactForm .contact-form-group .contact-form-set {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+}
+
+#contactFormMain .contact-form-cnt #contactForm .contact-form-group .contact-form-set span {
+  font-family: "Sun Zoom Spark";
+  font-size: clamp(2rem, 2.5vw, 2.5rem);
+  text-transform: uppercase;
+  -webkit-filter: drop-shadow(0 6px 2px rgba(0, 0, 0, 0.13));
+          filter: drop-shadow(0 6px 2px rgba(0, 0, 0, 0.13));
+  padding-top: 25px !important;
+  opacity: 0.6;
+}
+
+#contactFormMain .contact-form-cnt #contactForm .contact-form-group .contact-form-set input {
+  width: 100%;
+  max-width: 95%;
+  margin-right: auto !important;
+  height: 50px;
+  background-color: #ececec;
+  padding: 10px !important;
+  font-family: "Amaranth";
+  font-size: 20px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+#contactFormMain .contact-form-cnt #contactForm .contact-form-group .contact-form-set input:valid {
+  -webkit-filter: none;
+          filter: none;
+}
+
+#contactFormMain .contact-form-cnt #contactForm .contact-form-group .contact-form-set textarea {
+  width: 100%;
+  max-width: 95%;
+  height: 200px;
+  resize: none;
+  background-color: #ececec;
+  border: none !important;
+  padding: 10px !important;
+  font-family: "Amaranth";
+  font-size: 17px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+#contactFormMain .contact-form-cnt #contactForm .contact-form-group .contact-form-set textarea:focus {
+  outline: none;
+}
+
+#contactFormMain .contact-form-cnt #contactForm .contact-form-group .contact-form-set textarea:valid {
+  -webkit-filter: none;
+          filter: none;
+}
+
+#contactUnderForm {
+  padding-top: 50px !important;
+  padding-bottom: 100px !important;
+}
+
+#contactUnderForm .contact-under-form-cnt {
+  max-width: 900px;
+  width: 100%;
+  margin: auto !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#contactUnderForm .contact-under-form-cnt .contact-under-form-contact {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Amaranth";
+  border-left: 4px solid #dc986a;
+  padding-left: 10px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+#contactUnderForm .contact-under-form-cnt .contact-under-form-contact span {
+  font-size: 25px;
+  padding-left: 10px !important;
+  cursor: pointer;
+}
+
+#contactUnderForm .contact-under-form-cnt .contact-under-form-contact span:last-child {
+  color: #dc986a;
+}
+
+#contactUnderForm .contact-under-form-cnt .contact-under-form-socials .fa-icon {
+  font-size: 32px;
+  margin: 10px !important;
+  cursor: pointer;
+}
+
+#contactUnderForm .contact-under-form-cnt .contact-under-form-socials .fa-icon:hover {
+  color: #dc986a;
+}
+/*# sourceMappingURL=contact_components.css.map */

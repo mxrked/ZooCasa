@@ -1,0 +1,550 @@
+@import url("https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&display=swap");
+@font-face {
+  font-family: "Sun Zoom Spark";
+  src: url("../../../fonts/szs.ttf");
+}
+
+#desktopNavMain {
+  padding: 40px !important;
+  background-color: #5f7558;
+  z-index: 900;
+}
+
+#desktopNavMain .desktop-nav-main-box {
+  max-width: 1200px;
+  margin: auto !important;
+}
+
+#desktopNavMain .desktop-nav-main-box .desktop-nav-main-row .desktop-nav-main-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 120px;
+}
+
+#desktopNavMain .desktop-nav-main-box .desktop-nav-main-row .desktop-nav-main-side .desktop-nav-main-side-cnt #desktopNavLogo {
+  text-align: center;
+}
+
+#desktopNavMain .desktop-nav-main-box .desktop-nav-main-row .desktop-nav-main-side .desktop-nav-main-side-cnt #desktopNavLogo:hover div {
+  opacity: 1;
+}
+
+#desktopNavMain .desktop-nav-main-box .desktop-nav-main-row .desktop-nav-main-side .desktop-nav-main-side-cnt #desktopNavLogo div {
+  color: white;
+  opacity: 0.8;
+}
+
+#desktopNavMain .desktop-nav-main-box .desktop-nav-main-row .desktop-nav-main-side .desktop-nav-main-side-cnt #desktopNavLogo div h1 {
+  font-family: "Sun Zoom Spark";
+  font-size: clamp(5rem, 5vw, 5rem);
+}
+
+#desktopNavMain .desktop-nav-main-box .desktop-nav-main-row .desktop-nav-main-side .desktop-nav-main-side-cnt #desktopNavLogo div span {
+  font-family: "Amaranth";
+  font-size: 25px;
+  position: relative;
+  top: -10px;
+}
+
+#desktopNavMain .desktop-nav-main-box .desktop-nav-main-row .desktop-nav-main-side .desktop-nav-main-side-cnt #dSocials div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[2];
+      grid-template-columns: repeat(2, auto);
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#desktopNavMain .desktop-nav-main-box .desktop-nav-main-row .desktop-nav-main-side .desktop-nav-main-side-cnt #dSocials div a {
+  font-size: 23px;
+  color: white;
+  margin: 10px !important;
+  margin-bottom: 0 !important;
+  display: block;
+}
+
+#desktopNavMain .desktop-nav-main-box .desktop-nav-main-row .desktop-nav-main-side .desktop-nav-main-side-cnt #dSocials div a:hover {
+  color: #dc986a;
+}
+
+#desktopNavMain .desktop-nav-main-box .desktop-nav-main-row #desktopNavR .desktop-nav-main-side-cnt {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#desktopNavMain .desktop-nav-main-box .desktop-nav-main-row #desktopNavR .desktop-nav-main-side-cnt .nav-border {
+  width: 4px;
+  height: 90px;
+  display: block;
+  background-color: rgba(32, 51, 32, 0.205);
+  border-radius: 3px;
+}
+
+#desktopNavMain .desktop-nav-main-box .desktop-nav-main-row #desktopNavR .desktop-nav-main-side-cnt #menuTogglerBtn {
+  background-color: transparent;
+  display: block;
+  padding: 10px !important;
+  margin-top: 2px !important;
+}
+
+#desktopNavMain .desktop-nav-main-box .desktop-nav-main-row #desktopNavR .desktop-nav-main-side-cnt #menuTogglerBtn:hover span:nth-child(odd) {
+  width: 25px;
+}
+
+#desktopNavMain .desktop-nav-main-box .desktop-nav-main-row #desktopNavR .desktop-nav-main-side-cnt #menuTogglerBtn:hover #menuTogglerS2 {
+  background-color: #dc986a;
+}
+
+#desktopNavMain .desktop-nav-main-box .desktop-nav-main-row #desktopNavR .desktop-nav-main-side-cnt #menuTogglerBtn span {
+  display: block;
+  width: 50px;
+  height: 6px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+#desktopNavMain .desktop-nav-main-box .desktop-nav-main-row #desktopNavR .desktop-nav-main-side-cnt #menuTogglerBtn span:nth-child(even) {
+  margin-top: 9px !important;
+  margin-bottom: 9px !important;
+}
+
+#desktopNavMain .desktop-nav-main-box .desktop-nav-main-row #desktopNavR .desktop-nav-main-side-cnt #menuTogglerBtn span:last-child {
+  margin-left: auto !important;
+}
+
+#mobileNavMain {
+  padding: 20px !important;
+  background-color: #5f7558;
+}
+
+#mobileNavMain .mobile-nav-main-box .mobile-nav-main-row .mobile-nav-main-side {
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#mobileNavMain .mobile-nav-main-box .mobile-nav-main-row .mobile-nav-main-side .mobile-nav-main-side-cnt {
+  width: 100%;
+}
+
+#mobileNavMain .mobile-nav-main-box .mobile-nav-main-row #mobileNavL .mobile-nav-main-side-cnt #mobileNavLogo {
+  font-family: "Sun Zoom Spark";
+}
+
+#mobileNavMain .mobile-nav-main-box .mobile-nav-main-row #mobileNavL .mobile-nav-main-side-cnt #mobileNavLogo h2 {
+  color: white;
+  font-size: clamp(3rem, 4vw, 4rem);
+}
+
+#mobileNavMain .mobile-nav-main-box .mobile-nav-main-row #mobileNavR {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#mobileNavMain .mobile-nav-main-box .mobile-nav-main-row #mobileNavR .mobile-nav-main-side-cnt {
+  width: 50%;
+}
+
+#mobileNavMain .mobile-nav-main-box .mobile-nav-main-row #mobileNavR .mobile-nav-main-side-cnt div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#mobileNavMain .mobile-nav-main-box .mobile-nav-main-row #mobileNavR .mobile-nav-main-side-cnt div #menuTogglerBtn {
+  background-color: transparent;
+  display: block;
+  padding: 10px !important;
+  margin-top: 2px !important;
+  position: relative;
+  top: -5px;
+}
+
+#mobileNavMain .mobile-nav-main-box .mobile-nav-main-row #mobileNavR .mobile-nav-main-side-cnt div #menuTogglerBtn:hover span:nth-child(odd) {
+  width: 25px;
+}
+
+#mobileNavMain .mobile-nav-main-box .mobile-nav-main-row #mobileNavR .mobile-nav-main-side-cnt div #menuTogglerBtn:hover #menuTogglerS2 {
+  background-color: #dc986a;
+}
+
+#mobileNavMain .mobile-nav-main-box .mobile-nav-main-row #mobileNavR .mobile-nav-main-side-cnt div #menuTogglerBtn span {
+  display: block;
+  width: 50px;
+  height: 6px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+#mobileNavMain .mobile-nav-main-box .mobile-nav-main-row #mobileNavR .mobile-nav-main-side-cnt div #menuTogglerBtn span:nth-child(even) {
+  margin-top: 9px !important;
+  margin-bottom: 9px !important;
+}
+
+#mobileNavMain .mobile-nav-main-box .mobile-nav-main-row #mobileNavR .mobile-nav-main-side-cnt div #menuTogglerBtn span:last-child {
+  margin-left: auto !important;
+}
+
+#underNavMain {
+  background-color: #3c583c;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#underNavMain div {
+  width: 100%;
+  max-width: 500px;
+}
+
+#underNavMain div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#underNavMain div ul li span {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  padding: 10px !important;
+  display: block;
+  font-family: "Amaranth";
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#underNavMain div ul li .im-icon {
+  margin-right: 4px !important;
+}
+
+#underNavMain div ul li:hover span {
+  background-color: rgba(80, 212, 80, 0.212);
+}
+
+#menuDarken {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 950;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+#menuMain {
+  position: fixed;
+  width: 0;
+  max-width: 500px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 960;
+  background-color: #5f7558;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#menuMain #menuMainContent {
+  display: block;
+}
+
+#menuMain #menuMainContent .menu-main-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px !important;
+}
+
+#menuMain #menuMainContent .menu-main-top h4 {
+  font-family: "Sun Zoom Spark";
+  color: white;
+  font-size: clamp(3rem, 4vw, 4rem);
+}
+
+#menuMain #menuMainContent .menu-main-top button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #dc986a !important;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#menuMain #menuMainContent .menu-main-top button .fa-icon {
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+#menuMain #menuMainContent .menu-main-top button:hover {
+  background-color: #dc986a;
+}
+
+#menuMain #menuMainContent .menu-main-top button:hover .fa-icon {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+#menuMain #menuMainContent .menu-main-body {
+  display: -ms-grid;
+  display: grid;
+  font-family: "Amaranth";
+}
+
+#menuMain #menuMainContent .menu-main-body .menu-main-link {
+  padding: 14px !important;
+  display: block;
+  color: white;
+  font-size: 20px;
+}
+
+#menuMain #menuMainContent .menu-main-body .menu-main-link:hover {
+  background-color: #dc986a;
+}
+
+#menuMain #menuMainContent .menu-main-body .menu-exhibits-holder {
+  position: relative;
+  width: 500px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 20px;
+  color: white;
+}
+
+#menuMain #menuMainContent .menu-main-body .menu-exhibits-holder label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  width: 500px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  padding-left: 14px !important;
+}
+
+#menuMain #menuMainContent .menu-main-body .menu-exhibits-holder input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+#menuMain #menuMainContent .menu-main-body #menuExhibitLinks {
+  display: -ms-grid;
+  display: grid;
+  position: relative;
+  background-color: rgba(36, 70, 36, 0.534);
+  overflow: hidden;
+  white-space: nowrap;
+  height: 0;
+}
+
+#menuMain #menuMainContent .menu-main-body #menuExhibitLinks a {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 12px !important;
+  height: 50px;
+  width: 100%;
+  display: block;
+  color: white;
+  font-size: 17px;
+}
+
+#menuMain #menuMainContent .menu-main-body #menuExhibitLinks a:hover {
+  background-color: #dc986a;
+}
+
+#dSearchFieldMain {
+  position: relative;
+}
+
+#dSearchFieldMain .search-field-input-and-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+#dSearchFieldMain .search-field-input-and-btn input {
+  width: 100%;
+  padding: 10px !important;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.424);
+  font-family: "Amaranth";
+  font-size: 18px;
+}
+
+#dSearchFieldMain .search-field-input-and-btn button {
+  width: 47px;
+  height: 47px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background-color: #dc986a;
+  color: white;
+  margin-left: 10px !important;
+  font-size: 20px;
+}
+
+#dSearchFieldMain .search-field-input-and-btn button:hover {
+  background-color: #a35710;
+}
+
+#dSearchFieldMain ul {
+  position: absolute;
+  background-color: #e9e9e9;
+  width: 100%;
+  z-index: 400;
+}
+
+#dSearchFieldMain ul li a {
+  padding: 10px !important;
+  display: block;
+  font-family: "Amaranth";
+  text-transform: uppercase;
+  color: #dc986a;
+  font-weight: 700;
+}
+
+#dSearchFieldMain ul li a:hover {
+  background-color: #dc986a;
+  color: white;
+}
+
+#mSearchFieldMain {
+  position: relative;
+}
+
+#mSearchFieldMain .search-field-input-and-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+#mSearchFieldMain .search-field-input-and-btn input {
+  width: 100%;
+  padding: 10px !important;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.424);
+  font-family: "Amaranth";
+  font-size: 18px;
+}
+
+#mSearchFieldMain .search-field-input-and-btn button {
+  width: 47px;
+  height: 47px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background-color: #dc986a;
+  color: white;
+  margin-left: 10px !important;
+  font-size: 20px;
+}
+
+#mSearchFieldMain .search-field-input-and-btn button:hover {
+  background-color: #a35710;
+}
+
+#mSearchFieldMain ul {
+  position: absolute;
+  background-color: #e9e9e9;
+  width: 100%;
+  z-index: 400;
+}
+
+#mSearchFieldMain ul li a {
+  padding: 10px !important;
+  display: block;
+  font-family: "Amaranth";
+  text-transform: uppercase;
+  color: #dc986a;
+  font-weight: 700;
+}
+
+#mSearchFieldMain ul li a:hover {
+  background-color: #dc986a;
+  color: white;
+}
+
+#mSearchFieldMain .search-field-input-and-btn {
+  height: 35px;
+}
+
+#mSearchFieldMain .search-field-input-and-btn button {
+  width: 35px;
+  height: 35px;
+}
+/*# sourceMappingURL=nav_components.css.map */

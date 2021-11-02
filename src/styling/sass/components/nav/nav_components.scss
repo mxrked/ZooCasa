@@ -1,0 +1,334 @@
+@import "../../abstracts/mixins/mixins.scss";
+@import "../../base/typography/typography.scss";
+@import "../../themes/colors/colors.scss";
+
+//! Desktop Nav
+#desktopNavMain {
+  padding: 40px !important;
+  background-color: $Cactus;
+  z-index: 900;
+
+  .desktop-nav-main-box {
+    max-width: 1200px;
+    margin: auto !important;
+    .desktop-nav-main-row {
+      .desktop-nav-main-side {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 120px;
+        .desktop-nav-main-side-cnt {
+          #desktopNavLogo {
+            text-align: center;
+
+            &:hover {
+              div {
+                opacity: 1;
+              }
+            }
+
+            div {
+              color: white;
+              opacity: 0.8;
+              h1 {
+                font-family: $SZS;
+                font-size: clamp(5rem, 5vw, 5rem);
+              }
+
+              span {
+                font-family: $AM;
+                font-size: 25px;
+                position: relative;
+                top: -10px;
+              }
+            }
+          }
+
+          #dSocials {
+            div {
+              display: grid;
+              grid-template-columns: repeat(2, auto);
+              justify-content: flex-end;
+
+              a {
+                font-size: 23px;
+                color: white;
+                margin: 10px !important;
+                margin-bottom: 0 !important;
+                display: block;
+
+                &:hover {
+                  color: $Copperfield;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      #desktopNavR {
+        .desktop-nav-main-side-cnt {
+          width: 100%;
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+
+          .nav-border {
+            width: 4px;
+            height: 90px;
+            display: block;
+            background-color: rgba(32, 51, 32, 0.205);
+            border-radius: 3px;
+          }
+
+          #menuTogglerBtn {
+            @include menuToggler;
+          }
+        }
+      }
+    }
+  }
+}
+
+//! Mobile Nav
+#mobileNavMain {
+  padding: 20px !important;
+  background-color: $Cactus;
+
+  .mobile-nav-main-box {
+    .mobile-nav-main-row {
+      .mobile-nav-main-side {
+        height: 70px;
+        display: flex;
+        align-items: center;
+
+        .mobile-nav-main-side-cnt {
+          width: 100%;
+        }
+      }
+
+      #mobileNavL {
+        .mobile-nav-main-side-cnt {
+          #mobileNavLogo {
+            font-family: $SZS;
+            h2 {
+              color: white;
+              font-size: clamp(3rem, 4vw, 4rem);
+            }
+          }
+        }
+      }
+
+      #mobileNavR {
+        justify-content: flex-end;
+
+        .mobile-nav-main-side-cnt {
+          width: 50%;
+
+          div {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+
+            #menuTogglerBtn {
+              @include menuToggler;
+              position: relative;
+              top: -5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//! Under Nav
+#underNavMain {
+  background-color: rgb(60, 88, 60);
+  display: grid;
+  place-items: center;
+
+  div {
+    width: 100%;
+    max-width: 500px;
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      li {
+        span {
+          transition: 0.3s ease-in-out;
+          padding: 10px !important;
+          display: block;
+          font-family: $AM;
+          color: white;
+          cursor: pointer;
+          text-decoration: underline;
+        }
+
+        .im-icon {
+          margin-right: 4px !important;
+        }
+
+        &:hover {
+          span {
+            background-color: rgba(80, 212, 80, 0.212);
+          }
+        }
+      }
+    }
+  }
+}
+
+//! Nav Menu
+#menuDarken {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 950;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+#menuMain {
+  position: fixed;
+  width: 0;
+  max-width: 500px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 960;
+  background-color: $Cactus;
+  overflow: hidden;
+  white-space: nowrap;
+
+  #menuMainContent {
+    display: block;
+
+    .menu-main-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px !important;
+
+      h4 {
+        font-family: $SZS;
+        color: white;
+        font-size: clamp(3rem, 4vw, 4rem);
+      }
+
+      button {
+        background-color: transparent;
+        color: white;
+        border: 2px solid $Copperfield !important;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        display: grid;
+        place-items: center;
+
+        .fa-icon {
+          transition: 1s ease-in-out;
+        }
+
+        &:hover {
+          background-color: $Copperfield;
+
+          .fa-icon {
+            transform: rotate(360deg);
+          }
+        }
+      }
+    }
+
+    .menu-main-body {
+      display: grid;
+      font-family: $AM;
+
+      .menu-main-link {
+        padding: 14px !important;
+        display: block;
+        color: white;
+        font-size: 20px;
+        &:hover {
+          background-color: $Copperfield;
+        }
+      }
+
+      .menu-exhibits-holder {
+        position: relative;
+        width: 500px;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+        color: white;
+
+        label {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          position: absolute;
+          width: 500px;
+          height: 40px;
+          top: 0;
+          left: 0;
+          padding-left: 14px !important;
+        }
+
+        input {
+          display: flex;
+          justify-content: space-between;
+          height: 40px;
+          width: 100%;
+          position: absolute;
+          left: 0;
+          opacity: 0;
+          cursor: pointer;
+        }
+      }
+
+      #menuExhibitLinks {
+        display: grid;
+        position: relative;
+        background-color: rgba(36, 70, 36, 0.534);
+        overflow: hidden;
+        white-space: nowrap;
+        height: 0;
+        a {
+          display: flex !important;
+          align-items: center;
+          padding-left: 12px !important;
+          height: 50px;
+          width: 100%;
+          display: block;
+          color: white;
+          font-size: 17px;
+
+          &:hover {
+            background-color: $Copperfield;
+          }
+        }
+      }
+    }
+  }
+}
+
+//! Search Field
+#dSearchFieldMain {
+  @include searchFields;
+}
+
+#mSearchFieldMain {
+  @include searchFields;
+  .search-field-input-and-btn {
+    height: 35px;
+    button {
+      width: 35px;
+      height: 35px;
+    }
+  }
+}

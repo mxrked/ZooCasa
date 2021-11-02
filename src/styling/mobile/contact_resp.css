@@ -1,0 +1,157 @@
+@media all and (max-width: 1995px) {
+  #contactTop .contact-top-cnt,
+  #contactFormMain .contact-form-cnt,
+  #contactUnderForm .contact-under-form-cnt {
+    max-width: 70%;
+    width: 100%;
+  }
+  #contactTop .contact-top-cnt p {
+    margin-left: 0 !important;
+  }
+}
+
+@media all and (max-width: 991px) {
+  #contactTop {
+    height: 400px;
+    padding-top: 10px !important;
+  }
+  #contactTop .contact-top-cnt {
+    text-align: center;
+  }
+  #contactTop .contact-top-cnt h2 {
+    font-size: 70px;
+  }
+  #contactFormMain {
+    padding-bottom: 0 !important;
+  }
+  #contactFormMain
+    .contact-form-cnt
+    #contactForm
+    .contact-form-group:last-child {
+    display: block;
+  }
+  #contactFormMain
+    .contact-form-cnt
+    #contactForm
+    .contact-form-group:last-child
+    .contact-form-set {
+    max-width: 100%;
+  }
+  #contactFormMain
+    .contact-form-cnt
+    #contactForm
+    .contact-form-group
+    .contact-form-set
+    input,
+  #contactFormMain
+    .contact-form-cnt
+    #contactForm
+    .contact-form-group
+    .contact-form-set
+    textarea {
+    max-width: 100%;
+  }
+  #contactFormMain
+    .contact-form-cnt
+    #contactForm
+    .contact-form-group:last-child
+    .contact-form-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 240px;
+  }
+  #contactFormMain
+    .contact-form-cnt
+    #contactForm
+    .contact-form-group:last-child
+    .contact-form-btns
+    button {
+    max-width: 100px;
+    width: 100%;
+  }
+  #contactUnderForm {
+    padding-bottom: 30px !important;
+  }
+  #contactUnderForm .contact-under-form-cnt {
+    display: block;
+    text-align: center;
+  }
+  #contactUnderForm .contact-under-form-cnt .contact-under-form-contact {
+    border: none;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media all and (max-width: 768px) {
+  #contactTop {
+    height: 300px;
+    padding-top: 50px !important;
+  }
+  #contactTop .contact-top-cnt,
+  #contactFormMain .contact-form-cnt,
+  #contactUnderForm .contact-under-form-cnt {
+    max-width: 90%;
+  }
+  #contactTop .contact-top-cnt h2 {
+    font-size: clamp(20px, 40px, 40px);
+  }
+  #contactTop .contact-top-cnt p {
+    font-size: 18px;
+  }
+  #contactFormMain
+    .contact-form-cnt
+    #contactForm
+    .contact-form-group
+    .contact-form-set
+    input,
+  #contactFormMain
+    .contact-form-cnt
+    #contactForm
+    .contact-form-group
+    .contact-form-set
+    textarea {
+    max-width: 100%;
+  }
+  #contactFormMain
+    .contact-form-cnt
+    #contactForm
+    .contact-form-group
+    .contact-form-set
+    span {
+    font-size: 30px;
+  }
+  #contactFormMain
+    .contact-form-cnt
+    #contactForm
+    .contact-form-group:last-child
+    .contact-form-btns {
+    max-width: 100%;
+    justify-content: space-evenly;
+  }
+}
+
+/*! Pixel 2 XL */
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/*! Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/*! iPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/*! Laptops */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+}

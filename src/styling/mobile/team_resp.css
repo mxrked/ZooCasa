@@ -1,0 +1,314 @@
+@media all and (max-width: 1995px) {
+  #teamTop .team-top-cnt,
+  #teamMates .team-mates-holder {
+    max-width: 70%;
+  }
+}
+
+@media all and (max-width: 991px) {
+  #teamTop {
+    height: 100%;
+    padding-top: 100px !important;
+    padding-bottom: 40px !important;
+  }
+  #teamTop .team-top-cnt {
+    max-width: 80%;
+    text-align: center;
+  }
+  #teamTop .team-top-cnt h2 {
+    font-size: 70px;
+  }
+  #teamMates {
+    padding-bottom: 0 !important;
+  }
+  #teamMates .team-mates-holder .team-mate {
+    margin-top: 0 !important;
+  }
+  #teamMates
+    .team-mates-holder
+    .team-mate
+    .team-mate-inner
+    .team-mate-inner-side {
+    max-width: 100%;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+  }
+  #teamMates
+    .team-mates-holder
+    .team-mate
+    .team-mate-inner
+    .team-mate-inner-side
+    .team-mate-inner-side-cnt
+    .team-mate-inner-side-text
+    div {
+    margin: auto !important;
+  }
+  #teamMates
+    .team-mates-holder
+    .team-mate
+    .team-mate-inner
+    .team-mate-inner-side
+    .team-mate-inner-side-img {
+    max-width: 300px;
+    height: 290px;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media all and (max-width: 768px) {
+  #teamTop {
+    height: 100%;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  #teamTop .team-top-cnt,
+  #teamMates .team-mates-holder {
+    max-width: 100%;
+  }
+  #teamTop .team-top-cnt h2 {
+    font-size: clamp(20px, 40px, 40px);
+  }
+  #teamTop .team-top-cnt p {
+    font-size: 18px;
+    max-width: 80%;
+    margin: auto !important;
+  }
+  #teamMates {
+    padding-bottom: 20px !important;
+  }
+  #teamMates
+    .team-mates-holder
+    .team-mate
+    .team-mate-inner
+    .team-mate-inner-side {
+    height: 320px;
+  }
+  #teamMates
+    .team-mates-holder
+    .team-mate
+    .team-mate-inner
+    .team-mate-inner-side
+    .team-mate-inner-side-img {
+    max-width: 70%;
+    height: 200px;
+  }
+  #teamMates
+    .team-mates-holder
+    .team-mate
+    .team-mate-inner
+    .team-mate-inner-side
+    .team-mate-inner-side-cnt
+    .team-mate-inner-side-text
+    h2 {
+    font-size: clamp(30px, 50px, 50px);
+  }
+  #teamMates
+    .team-mates-holder
+    .team-mate
+    .team-mate-inner
+    .team-mate-inner-side
+    .team-mate-inner-side-cnt
+    .team-mate-inner-side-text
+    p {
+    font-size: 18px;
+  }
+  #teamMates
+    .team-mates-holder
+    .team-mate
+    .team-mate-inner
+    .team-mate-inner-side
+    .team-mate-inner-side-cnt
+    .team-mate-inner-side-text
+    div {
+    max-width: 150px;
+  }
+  #teamMates
+    .team-mates-holder
+    .team-mate
+    .team-mate-inner
+    .team-mate-inner-side
+    .team-mate-inner-side-cnt
+    .team-mate-inner-side-text
+    div
+    .fa-icon {
+    font-size: 30px;
+  }
+}
+
+/*! Pixel 2 XL */
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #teamMates .team-mates-holder {
+    max-width: 100%;
+  }
+  #teamMates .team-mates-holder .team-mate {
+    margin: 0 !important;
+  }
+  #teamMates
+    .team-mates-holder
+    .team-mate
+    .team-mate-inner
+    .team-mate-inner-side {
+    max-width: 50%;
+    height: 370px;
+  }
+  #teamMates
+    .team-mates-holder
+    .team-mate
+    .team-mate-inner
+    .team-mate-inner-side
+    .team-mate-inner-side-cnt
+    .team-mate-inner-side-text {
+    max-width: 96%;
+    padding: 10px !important;
+    text-align: left;
+  }
+  #teamMates
+    .team-mates-holder
+    .team-mate
+    .team-mate-inner
+    .team-mate-inner-side
+    .team-mate-inner-side-cnt
+    .team-mate-inner-side-text
+    h2 {
+    padding-bottom: 5px !important;
+  }
+  #teamMates
+    .team-mates-holder
+    .team-mate
+    .team-mate-inner
+    .team-mate-inner-side
+    .team-mate-inner-side-cnt
+    .team-mate-inner-side-text
+    p {
+    font-size: 15px;
+  }
+  #teamMates
+    .team-mates-holder
+    .team-mate
+    .team-mate-inner
+    .team-mate-inner-side
+    .team-mate-inner-side-cnt
+    .team-mate-inner-side-text
+    div {
+    margin-left: 0 !important;
+  }
+}
+
+/*! Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  #teamMates .team-mates-holder .team-mate {
+    margin-bottom: 50px !important;
+  }
+  #teamMates
+    .team-mates-holder
+    .team-mate
+    .team-mate-inner
+    .team-mate-inner-side
+    .team-mate-inner-side-cnt
+    .team-mate-inner-side-text
+    h2 {
+    font-size: 60px;
+  }
+  #teamMates
+    .team-mates-holder
+    .team-mate
+    .team-mate-inner
+    .team-mate-inner-side
+    .team-mate-inner-side-cnt
+    .team-mate-inner-side-text
+    p {
+    font-size: 18px;
+  }
+  #teamMates
+    .team-mates-holder
+    .team-mate
+    .team-mate-inner
+    .team-mate-inner-side
+    .team-mate-inner-side-cnt
+    .team-mate-inner-side-text
+    div
+    .fa-icon {
+    font-size: 30px;
+  }
+  #teamMates
+    .team-mates-holder
+    .team-mate
+    .team-mate-inner
+    .team-mate-inner-side
+    .team-mate-inner-side-img {
+    max-width: 60%;
+    height: 250px;
+  }
+}
+
+/*! iPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #teamMates {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  #teamTop .team-top-cnt,
+  #teamMates .team-mates-holder {
+    max-width: 84%;
+  }
+  #teamMates
+    .team-mates-holder
+    .team-mate
+    .team-mate-inner
+    .team-mate-inner-side {
+    height: 420px;
+  }
+  #teamMates
+    .team-mates-holder
+    .team-mate
+    .team-mate-inner
+    .team-mate-inner-side
+    .team-mate-inner-side-img {
+    max-width: 65%;
+    height: 260px;
+  }
+  #teamMates
+    .team-mates-holder
+    .team-mate
+    .team-mate-inner
+    .team-mate-inner-side
+    .team-mate-inner-side-cnt
+    .team-mate-inner-side-text
+    h2 {
+    font-size: 60px;
+  }
+  #teamMates
+    .team-mates-holder
+    .team-mate
+    .team-mate-inner
+    .team-mate-inner-side
+    .team-mate-inner-side-cnt
+    .team-mate-inner-side-text
+    p {
+    font-size: 18px;
+  }
+  #teamMates
+    .team-mates-holder
+    .team-mate
+    .team-mate-inner
+    .team-mate-inner-side
+    .team-mate-inner-side-cnt
+    .team-mate-inner-side-text
+    div
+    .fa-icon {
+    font-size: 30px;
+  }
+}
+
+/*! Laptops */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+}

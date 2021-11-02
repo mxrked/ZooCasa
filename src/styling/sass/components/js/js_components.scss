@@ -1,0 +1,22 @@
+@import "../../abstracts/mixins/mixins.scss";
+@import "../../base/typography/typography.scss";
+@import "../../themes/colors/colors.scss";
+
+//! Back To Top
+#backToTopBtn {
+  background-color: $HippieBlue;
+  width: 50px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-size: 25px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+
+  &:hover {
+    background-color: rgba(43, 93, 43, 0.664);
+  }
+}
